@@ -1,4 +1,4 @@
-package confusing;
+package Confusing;
 /*
  * This exercise is meant to give you a first glance at trying to 
  * read and interpret code that lack proper variable names,

@@ -1,4 +1,4 @@
-package coupledcode;
+package CoupledCode;
 public class ClassC {
     ClassB classB;
     int counter = 0;

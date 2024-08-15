@@ -1,5 +1,4 @@
-package confusing;
-
+package Confusing;
 /*
  * To do: Fix the stuff and the things
  * as discussed in the Sprint of week 23 2009
@@ -8,7 +7,6 @@ package confusing;
 public class Confusing {
     Mysterious mysterious;
     
-
     public Confusing(int varX, String varY, String varZ) {
         mysterious = new Mysterious(varX, varY, varZ);
     }

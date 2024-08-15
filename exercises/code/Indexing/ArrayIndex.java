@@ -1,3 +1,4 @@
+package Indexing;
 /* 
  * Running this code will produce an error.
  * Your task is to identify the issue,

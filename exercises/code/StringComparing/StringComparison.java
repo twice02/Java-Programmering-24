@@ -1,3 +1,4 @@
+package StringComparing;
 /* 
 * Explain why the results are different when calling 
 * isGreetingsHello with "the same" string. 

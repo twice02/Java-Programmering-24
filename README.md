@@ -14,6 +14,10 @@ Lecture Notes (LX.X)
 ### Övningar
 [exercises](/exercises) innehåller övningsuppgifter och lösningsförslag.
 
+### Kodexempel
+[exercises/code](/exercises/code/) innehåller exempelkod där det finns felaktigheter samt exempelkod för att illustrera "smelly code".  
+Dessa övningar ger en chans för er att lära er att förstå kod genom att läsa kod och testa er fram. 
+
 ### Laboration
 [labs](/labs) innehåller information om kursens första laboration.
 

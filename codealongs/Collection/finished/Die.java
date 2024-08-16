@@ -17,6 +17,6 @@ public class Die {
     }
 
     public void roll() {
-        value = randomgen.nextInt(1, sides+1);
+        value = randomgen.nextInt(sides+1);
     }    
 }

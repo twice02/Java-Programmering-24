@@ -44,7 +44,7 @@ Looking closer at out for-loop, we see that we start by creating the variable `i
 2 -> Check index 2 in numbers -> number = 3
 3 -> Check index 3 in numbers -> number = 4
 4 -> Check index 4 in numbers -> number = 5
-5 -> Check index 5 in numbers -> There is no such index! -> number = ... Uhoh ... Throw ArrayIndexOutOfBoundsException 
+5 -> Check index 5 in numbers -> There is no such index! -> number = ... Uhoh ... Throw ArrayIndexOutOfBoundsException error
 ```
 Well, it seems like we've found the cause for our trouble! 
 

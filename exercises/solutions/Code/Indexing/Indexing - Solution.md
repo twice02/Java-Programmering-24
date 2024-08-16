@@ -1,4 +1,4 @@
-Let's take a closer look at what is going on in the code. 
+Let's take a closer look at what is going on in the code of [ArrayIndex.java](/exercises/code/Indexing/ArrayIndex.java)
 
 ### Executing the code
 Executing the code will produce an error: 

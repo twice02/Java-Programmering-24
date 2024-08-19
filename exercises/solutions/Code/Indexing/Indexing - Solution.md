@@ -11,7 +11,7 @@ Executing the code will produce an error:
 
 `java.lang.ArrayIndexOutOfBoundsException` contains *java.lang* which is simply the core classes within Java (exceptions are one of these classes).  
 
-`ArrayIndexOutOfBoundsException`: The type of exception that was thrown, meaning that this could be seen as the type of error that causes the program to not compile. Just reading the error message out loud will give you a hint of what type of error this is. An Array which Index is out of bounds. Out of bounds meaning that the program wants to access an index of an array which does not exist. 
+`ArrayIndexOutOfBoundsException`: The type of exception that was thrown. Reading the error message out loud will give you a hint of what type of error this is. An Array which Index is out of bounds. Out of bounds meaning that the program wants to access an index of an array which does not exist. 
 
 `Index 5 out of bounds for length 5`: The cause of the out of bound exception is at index number 5. for length 5 indicates that the length of the array is 5. But wait, if the code tries to access index 5 in an array of length 5, why does it complain? Remember that we start at index 0, which means that we loop over index 0,1,2,3,4,5 (6 times, despite there only being 5 elements). 
 
@@ -28,7 +28,9 @@ for (int i = 0; i <= numbers.length; i++) {
     number = numbers[i];
 }
 ```  
-Since we have examined the error message, we have figured out that the issue seems to be with the loop. After all, that is where we are trying to access the array index which throws us an error. If we comment out the line of code which assign the value `numbers[i]` to `number` and add a print statement, the output is: 
+Since we have examined the error message, we have figured out that the issue seems to be within the loop. After all, that is where we are trying to access the array index, which throws us an error. If we comment out the line of code that assigns the value `numbers[i]` to `number` and instead add a print statement, the output shows us that the loop runs 6 times. Remember that the length of `numbers` is 5, so the loop will go from 0-5, while our array only has elements at indices 0-4.
+
+Output from printing the value of i:
 ```
 0
 1
@@ -37,7 +39,7 @@ Since we have examined the error message, we have figured out that the issue see
 4
 5
 ```
-Looking closer at out for-loop, we see that we start by creating the variable `i` of type `int` and give it the value 0. We then say `i <= numbers.length`, which means that we run the loop as long as the value of i is less than or equal to the length of our numbers array (which is of length 5). We also have `i++` which says that for each loop, we increment the value of `i` by 1. Let's quickly just look at the way the computer thinks of this loop (in simplified terms). 
+Looking closer at our for-loop, we see that we start by creating the variable `i` of type `int` and give it the value 0. We then say `i <= numbers.length`, which means that we run the loop as long as the value of i is less than or equal to the length of our numbers array (which is of length 5). We also have `i++` which says that for each loop, we increment the value of `i` by 1. Let's quickly just look at the way the computer thinks of this loop (in simplified terms). 
 ```
 0 -> Check index 0 in numbers -> number = 1
 1 -> Check index 1 in numbers -> number = 2 
@@ -70,5 +72,5 @@ Make sure that you're always careful when writing for-loops so that you stay wit
 
 
 ### Final thoughts
-This may seem daunting in the beginning, after all, this solution file is over 70 rows of text while the code is ~10 lines long, but don't worry. In most cases, it's better to do some extra reading and understand the concepts and reasons behind something as trivial as an error message. Days, weeks or months from now, you'll be looking at issues like this, scratch your head and tell yourself "Why do I get this error?!". That will hopefully be followed by you reading the error message properly, then go fix that error! 
+This may seem daunting in the beginning, but don't worry, in most cases, it's better to do some extra reading and understand the concepts and reasons behind something as trivial as an error message. Days, weeks or months from now, you'll be looking at issues like this, scratch your head and tell yourself "Why do I get this error?!". That will hopefully be followed by you reading the error message properly, then go fix that error! 
 

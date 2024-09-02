@@ -1,4 +1,4 @@
-package CoupledCode;
+package coupledcode;
 
 public class ClassB {
     ClassA classA;

@@ -1,4 +1,4 @@
-package Confusing;
+package confusing;
 /*
  * To do: Fix the stuff and the things
  * as discussed in the Sprint of week 23 2009

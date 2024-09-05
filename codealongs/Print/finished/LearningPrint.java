@@ -5,6 +5,7 @@ public class LearningPrint {
         System.out.println("Hello World!");
         System.out.println(45);
         System.out.println('\u00E4');
+        System.out.println("ä");
 
         int cars = 8;
 
@@ -12,7 +13,6 @@ public class LearningPrint {
 
         System.out.print("Hello World!");
         System.out.print("Hello World!");
-
         System.out.printf("Hello World!");
     }
 }
